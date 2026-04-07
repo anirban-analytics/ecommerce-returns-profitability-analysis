@@ -12,37 +12,37 @@ By integrating **Python, SQL, and Power BI**, the analysis transforms raw transa
 
 E-commerce businesses often face significant losses due to:
 
-* High product return rates
-* Inefficient delivery systems
-* Regional performance imbalances
+- High product return rates  
+- Inefficient delivery systems  
+- Regional performance imbalances  
 
 This project aims to:
 
-* Identify **factors influencing return risk**
-* Analyze **revenue distribution across categories and regions**
-* Quantify **profitability loss due to returns**
-* Provide **strategic recommendations for optimization**
+- Identify **factors influencing return risk**  
+- Analyze **revenue distribution across categories and regions**  
+- Quantify **profitability loss due to returns**  
+- Provide **strategic recommendations for optimization**  
 
 ---
 
 ## 🧰 Tools & Technologies
 
-* **Python** (Pandas, NumPy)
-* **SQL (PostgreSQL)**
-* **SQLAlchemy**
-* **Power BI**
-* **Jupyter Notebook**
+- **Python** (Pandas, NumPy)  
+- **SQL (PostgreSQL)**  
+- **SQLAlchemy**  
+- **Power BI**  
+- **Jupyter Notebook**  
 
 ---
 
 ## 📂 Dataset
 
-* Brazilian E-Commerce Public Dataset (Olist)
-* Includes:
+- Brazilian E-Commerce Public Dataset (Olist)
 
-  * Orders, Customers, Products
-  * Payments, Reviews, Sellers
-  * Geolocation & Category Translation
+Includes:
+- Orders, Customers, Products  
+- Payments, Reviews, Sellers  
+- Geolocation & Category Translation  
 
 ---
 
@@ -50,33 +50,32 @@ This project aims to:
 
 ### 🔹 Data Preparation
 
-* Merged multiple datasets into a unified analytical table
-* Handled missing values and datatype conversions
-* Engineered key features:
-
-  * `delivery_days`
-  * `late_delivery`
-  * `return_risk`
-  * `total_order_value`
+- Merged multiple datasets into a unified analytical table  
+- Handled missing values and datatype conversions  
+- Engineered key features:
+  - `delivery_days`
+  - `late_delivery`
+  - `return_risk`
+  - `total_order_value`
 
 ---
 
 ### 🔹 Exploratory Data Analysis (EDA)
 
-* Revenue trends over time
-* Category-wise revenue contribution
-* Geographic revenue distribution
-* Delivery performance analysis
+- Revenue trends over time  
+- Category-wise revenue contribution  
+- Geographic revenue distribution  
+- Delivery performance analysis  
 
 ---
 
 ### 🔹 Advanced SQL Analytics
 
-* Monthly revenue trend analysis
-* Revenue by customer state
-* Return risk percentage by region
-* Revenue loss due to return-risk orders
-* Impact of delivery speed on return rates
+- Monthly revenue trend analysis  
+- Revenue by customer state  
+- Return risk percentage by region  
+- Revenue loss due to return-risk orders  
+- Impact of delivery speed on return rates  
 
 ---
 
@@ -88,29 +87,29 @@ This project aims to:
 
 ## 📈 Key Insights
 
-* 📈 **Strong Growth Trajectory**: Revenue increased rapidly during 2017–2018, followed by stabilization
-* 🛍️ **Top Categories**: Health & Beauty, Watches & Gifts, and Bed & Bath drive maximum revenue
-* 🌍 **Geographical Concentration**: São Paulo dominates revenue contribution
-* ⚠️ **Return Risk Drivers**:
+- 📈 **Strong Growth Trajectory**: Revenue increased rapidly during 2017–2018, followed by stabilization  
+- 🛍️ **Top Categories**: Health & Beauty, Watches & Gifts, and Bed & Bath drive maximum revenue  
+- 🌍 **Geographical Concentration**: São Paulo dominates revenue contribution  
 
-  * Late deliveries significantly increase return probability
-  * Low review scores strongly correlate with returns
-* 🚚 **Logistics Impact**:
+- ⚠️ **Return Risk Drivers**:
+  - Late deliveries significantly increase return probability  
+  - Low review scores strongly correlate with returns  
 
-  * “Very Slow” deliveries have ~4x higher return rates than fast deliveries
-* 💸 **Profitability Leakage**:
+- 🚚 **Logistics Impact**:
+  - “Very Slow” deliveries have ~4x higher return rates than fast deliveries  
 
-  * High-revenue categories also experience significant return-related losses
+- 💸 **Profitability Leakage**:
+  - High-revenue categories also experience significant return-related losses  
 
 ---
 
 ## 💡 Business Recommendations
 
-* ✅ Optimize delivery performance to reduce return risk
-* ✅ Improve product quality and descriptions to minimize dissatisfaction
-* ✅ Focus on high-performing categories for revenue growth
-* ✅ Strengthen logistics in high-risk regions
-* ✅ Monitor return risk as a core business KPI
+- Optimize delivery performance to reduce return risk  
+- Improve product quality and descriptions to minimize dissatisfaction  
+- Focus on high-performing categories for revenue growth  
+- Strengthen logistics in high-risk regions  
+- Monitor return risk as a core business KPI  
 
 ---
 
@@ -120,16 +119,30 @@ This project aims to:
 ecommerce-returns-profitability-analysis/
 │
 ├── data/
-|   |--Brazilian E-Commerce Public Dataset (Olist)
-|      |--master_olist.csv, olist_customers_dataset.csv, olist_geolocation_dataset.csv, olist_order_items_dataset.csv, olist_order_payments_dataset.csv, olist_order_reviews_dataset.csv, olist_orders_dataset.csv, olist_products_dataset.csv, olist_sellers_dataset.csv, product_category_name_translation.csv
+│   └── Brazilian E-Commerce Public Dataset (Olist)
+│       ├── master_olist.csv
+│       ├── olist_customers_dataset.csv
+│       ├── olist_geolocation_dataset.csv
+│       ├── olist_order_items_dataset.csv
+│       ├── olist_order_payments_dataset.csv
+│       ├── olist_order_reviews_dataset.csv
+│       ├── olist_orders_dataset.csv
+│       ├── olist_products_dataset.csv
+│       ├── olist_sellers_dataset.csv
+│       └── product_category_name_translation.csv
+│
 ├── notebooks/
 │   └── analysis.ipynb
+│
 ├── dashboard/
 │   └── Ecommerce_Return_Risk_Analytics.pbix
+│
 ├── images/
 │   └── ecom_returns_dashboard.png
+│
 ├── sql/
 │   └── olist_database_backup
+│
 ├── requirements.txt
 └── README.md
 ```
@@ -138,40 +151,40 @@ ecommerce-returns-profitability-analysis/
 
 ## ⚙️ How to Run This Project
 
-1. Clone the repository
+1. Clone the repository  
 
-```bash
+```
 git clone https://github.com/anirban-analytics/ecommerce-returns-profitability-analysis.git
 ```
 
-2. Install dependencies
+2. Install dependencies  
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
-3. Restore the database (PostgreSQL)
+3. Restore the database (PostgreSQL)  
 
-* Use the backup file located in the `sql/` folder
-* Restore using pgAdmin or `psql`
+- Use the backup file located in the `sql/` folder  
+- Restore using pgAdmin or `psql`  
 
-4. Open the Jupyter Notebook
+4. Open the Jupyter Notebook  
 
-```bash
+```
 jupyter notebook
 ```
 
-5. Run all cells to reproduce analysis
+5. Run all cells to reproduce analysis  
 
 ---
 
 ## 📌 Key Metrics Tracked
 
-* Total Revenue
-* Total Orders
-* Return Rate (%)
-* Average Delivery Time
-* Revenue Loss (%)
+- Total Revenue  
+- Total Orders  
+- Return Rate (%)  
+- Average Delivery Time  
+- Revenue Loss (%)  
 
 ---
 
@@ -179,30 +192,29 @@ jupyter notebook
 
 This project demonstrates how data analytics can:
 
-* Identify operational inefficiencies
-* Reduce revenue leakage
-* Improve customer experience
-* Enable strategic decision-making
+- Identify operational inefficiencies  
+- Reduce revenue leakage  
+- Improve customer experience  
+- Enable strategic decision-making  
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add predictive modeling for return probability
-* Build automated data pipelines
-* Deploy dashboard using Power BI Service
-* Integrate real-time data sources
+- Add predictive modeling for return probability  
+- Build automated data pipelines  
+- Deploy dashboard using Power BI Service  
+- Integrate real-time data sources  
 
 ---
 
 ## 👤 Author
 
-**Anirban Tarafdar**
-Aspiring Data Analyst | SQL | Python | Power BI
+**Anirban Tarafdar**  
+Aspiring Data Analyst | SQL | Python | Power BI  
 
 ---
 
 ## ⭐ If You Found This Useful
 
 Give this repo a ⭐ and feel free to connect!
-
