@@ -60,6 +60,17 @@ Includes:
 
 ---
 
+### 🧹 Data Preparation Summary
+
+- Joined multiple relational tables into a master dataset
+- Handled missing values and inconsistent formats
+- Created analytical features such as:
+  - Delivery time
+  - Return risk indicator
+  - Order value metrics
+
+---
+
 ### 🔹 Exploratory Data Analysis (EDA)
 
 - Revenue trends over time  
@@ -76,6 +87,16 @@ Includes:
 - Return risk percentage by region  
 - Revenue loss due to return-risk orders  
 - Impact of delivery speed on return rates  
+
+---
+
+### 🧠 SQL Skills Demonstrated
+
+- Complex aggregations with `GROUP BY`
+- Conditional filtering using `CASE` and `FILTER`
+- KPI calculations (return rate %, loss %)
+- Time-series analysis
+- Business-focused metric engineering
 
 ---
 
@@ -185,6 +206,19 @@ jupyter notebook
 - Return Rate (%)  
 - Average Delivery Time  
 - Revenue Loss (%)  
+
+---
+
+## 💰 Business Impact
+
+This analysis helps e-commerce businesses:
+
+- Reduce return-related revenue loss by identifying high-risk categories  
+- Improve customer satisfaction through optimized delivery performance  
+- Enhance operational efficiency in logistics and fulfillment  
+- Prioritize high-value regions and product segments for growth  
+
+> 📊 Estimated Impact: Reducing return rates in high-risk segments can significantly improve overall profitability.
 
 ---
 
