@@ -106,6 +106,17 @@ Includes:
 
 ---
 
+## 📌 Results Snapshot
+
+- 📉 Return rate increases up to **36.8%** for very slow deliveries  
+- 🚚 Faster delivery reduces return risk by nearly **4x**  
+- 💸 High-revenue categories contribute the most to return-related losses  
+- 🌍 Revenue is heavily concentrated in a few key states  
+
+> 📊 Key Insight: Delivery performance is a major driver of return risk and profitability.
+
+---
+
 ## 📈 Key Insights
 
 - 📈 **Strong Growth Trajectory**: Revenue increased rapidly during 2017–2018, followed by stabilization  
@@ -199,6 +210,20 @@ jupyter notebook
 
 ---
 
+## 📓 Analysis Notebook
+
+The complete step-by-step analysis is available in:
+
+`notebooks/analysis.ipynb`
+
+Includes:
+- Data cleaning & preprocessing  
+- SQL query execution  
+- Feature engineering  
+- Business insights generation  
+
+---
+
 ## 📌 Key Metrics Tracked
 
 - Total Revenue  
@@ -246,6 +271,8 @@ This project demonstrates how data analytics can:
 
 **Anirban Tarafdar**  
 Aspiring Data Analyst | SQL | Python | Power BI  
+
+📫 Open to Data Analyst / Business Analyst roles
 
 ---
 
